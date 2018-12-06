@@ -12,7 +12,7 @@ class ProductControl extends StatelessWidget{
             color: Theme.of(context).primaryColor,
             onPressed: () {
             addProduct('ZX10 Ninja');
-            print('new product added');
+            // print('new product added');
             },
             child: Text('Add Super Bike'),
           );
