@@ -11,7 +11,7 @@ class ProductControl extends StatelessWidget{
       return RaisedButton(
             color: Theme.of(context).primaryColor,
             onPressed: () {
-            addProduct('ZX10 Ninja');
+            addProduct({'title':'Kawasaki Ninja','image':'assets/ninja2.jpg'});
             // print('new product added');
             },
             child: Text('Add Super Bike'),
