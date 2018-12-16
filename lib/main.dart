@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/home.dart';
+import './pages/auth.dart';
 
 // import 'package:flutter/rendering.dart';
 main() {
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
             brightness: Brightness.light,
             accentColor: Colors.deepPurple,
             primarySwatch: Colors.deepOrange),
-        home: HomePage());
+        home: AuthPage());
   }
 }
