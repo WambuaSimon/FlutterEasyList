@@ -1,6 +1,7 @@
 # starter_app
 
-A new Flutter project.
+OLX-like Flutter App
+
 
 ## Getting Started
 
