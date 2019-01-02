@@ -40,7 +40,9 @@ class _MyAppState extends State<MyApp> {
         theme: ThemeData(
             brightness: Brightness.light,
             accentColor: Colors.deepPurple,
-            primarySwatch: Colors.deepOrange),
+            primarySwatch: Colors.deepOrange,
+            buttonColor: Colors.deepPurple),
+
         // home: AuthPage(),
         routes: {
           '/': (BuildContext context) => AuthPage(),
@@ -59,7 +61,10 @@ class _MyAppState extends State<MyApp> {
 
             return MaterialPageRoute<bool>(
               builder: (BuildContext context) => ProductPage(
-                  _products[index]['title'], _products[index]['image']),
+                  _products[index]['title'],
+                  _products[index]['image'],
+                  _products[index]['price'],
+                  _products[index]['description']),
             );
           }
           return null;
